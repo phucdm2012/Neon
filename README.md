@@ -22,4 +22,4 @@
 - [ ] Tạo Database cho dictionary.
 - [ ] Tạo API.
 - [ ] Kết nối API vào UI.
-- [ ] Thêm tính năng mới.
+- [ ] Thêm vào tính năng mới.
