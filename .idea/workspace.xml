@@ -5,19 +5,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997f802f-f5a0-42d5-8338-1f54d46d24b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Neon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="README" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "phucdm2012"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/phucdm2012/Neon.git",
+    "accountId": "e702b1c1-8177-4ffd-abbc-4fcd34bbad1e"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.6848796665279298" />
+      <entry key="MS500" value="2.555358823983176" />
+      <entry key="S2" value="4.129824673390969" />
+      <entry key="S5" value="6.308981213374114" />
+      <entry key="S10" value="10.211905139798086" />
+      <entry key="S30" value="26.282953046666623" />
+      <entry key="S60" value="45.59701086229971" />
+      <entry key="M2" value="71.1868757424616" />
+      <entry key="M5" value="105.11034253721425" />
+      <entry key="M10" value="123.52080632448471" />
+      <entry key="M15" value="130.89772310743047" />
+      <entry key="M30" value="139.02570137347828" />
+      <entry key="H1" value="143.40060445470692" />
+      <entry key="H2" value="145.67138623140193" />
+      <entry key="H4" value="146.8283541913892" />
+      <entry key="D1" value="147.80369692439652" />
+      <entry key="W1" value="147.97193138439204" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.5447108489752195" />
+      <entry key="MS500" value="2.5147434929197723" />
+      <entry key="S2" value="4.11512773772332" />
+      <entry key="S5" value="6.300442709807084" />
+      <entry key="S10" value="10.20495234410607" />
+      <entry key="S30" value="26.276636167573926" />
+      <entry key="S60" value="45.59125570532921" />
+      <entry key="M2" value="71.18214582195313" />
+      <entry key="M5" value="105.10739373924498" />
+      <entry key="M10" value="123.51903152492571" />
+      <entry key="M15" value="130.89645820132907" />
+      <entry key="M30" value="139.02502347254512" />
+      <entry key="H1" value="143.40025318392196" />
+      <entry key="H2" value="145.67120738681186" />
+      <entry key="H4" value="146.8282639500328" />
+      <entry key="D1" value="147.80368176895914" />
+      <entry key="W1" value="147.9719292164889" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
@@ -57,11 +131,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794897583485</updated>
-      <workItem from="1794897584715" duration="607000" />
+      <workItem from="1794897584715" duration="1341000" />
     </task>
+    <task id="LOCAL-00001" summary="Tạo dự án&#10;Create project">
+      <option name="closed" value="true" />
+      <created>1794899205420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794899205420</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tạo dự án&#10;Create project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tạo dự án&#10;Create project" />
   </component>
 </project>
