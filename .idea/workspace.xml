@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997f802f-f5a0-42d5-8338-1f54d46d24b9" name="Changes" comment="Add README.md">
-      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/mainwindow.py" afterDir="false" />
+    <list default="true" id="997f802f-f5a0-42d5-8338-1f54d46d24b9" name="Changes" comment="">
+      <changelist_data name="phucdm2012" email="phucdm2012@gmail.com" automatic="false" />
+      <change afterPath="$PROJECT_DIR$/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/mainwindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/sidebar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/mainwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,83 +31,88 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="phucdm2012 &lt;phucdm2012@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "phucdm2012"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;phucdm2012&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/phucdm2012/Neon.git",
-    "accountId": "e702b1c1-8177-4ffd-abbc-4fcd34bbad1e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/phucdm2012/Neon.git&quot;,
+    &quot;accountId&quot;: &quot;e702b1c1-8177-4ffd-abbc-4fcd34bbad1e&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0137922343170416" />
-      <entry key="MS500" value="1.4245481232234214" />
-      <entry key="S2" value="1.8074791870782796" />
-      <entry key="S5" value="1.9770273622687937" />
-      <entry key="S10" value="2.520201226147024" />
-      <entry key="S30" value="10.496690052189757" />
-      <entry key="S60" value="27.688685053438068" />
-      <entry key="M2" value="55.59329216475765" />
-      <entry key="M5" value="96.494561191208" />
-      <entry key="M10" value="119.88516984696865" />
-      <entry key="M15" value="129.4492100350194" />
-      <entry key="M30" value="140.10312976073385" />
-      <entry key="H1" value="145.88573042209683" />
-      <entry key="H2" value="148.9000128571385" />
-      <entry key="H4" value="150.43911345965478" />
-      <entry key="D1" value="151.73832379196517" />
-      <entry key="W1" value="151.9625800486251" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0006276680129769" />
+      <entry key="S2" value="1.1825431606812986" />
+      <entry key="S5" value="1.8071997355362464" />
+      <entry key="S10" value="2.54905828750028" />
+      <entry key="S30" value="5.154086156831584" />
+      <entry key="S60" value="8.219582227686473" />
+      <entry key="M2" value="12.386115098066842" />
+      <entry key="M5" value="20.226512161697457" />
+      <entry key="M10" value="26.846095296037497" />
+      <entry key="M15" value="31.247690704350386" />
+      <entry key="M30" value="43.67017390593156" />
+      <entry key="H1" value="77.37262252812927" />
+      <entry key="H2" value="138.81941728774518" />
+      <entry key="H4" value="204.03452290121308" />
+      <entry key="D1" value="293.53586212686747" />
+      <entry key="W1" value="313.5116730742233" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="8.449247341314879E-72" />
-      <entry key="MS500" value="6.1004743403554555E-15" />
-      <entry key="S2" value="2.794736720211632E-4" />
-      <entry key="S5" value="0.037891025595679285" />
-      <entry key="S10" value="0.19465617276541552" />
-      <entry key="S30" value="0.579547975952228" />
-      <entry key="S60" value="0.7612804844157166" />
-      <entry key="M2" value="0.8725138878067882" />
-      <entry key="M5" value="0.9469105152717333" />
-      <entry key="M10" value="0.9730932716198039" />
-      <entry key="M15" value="0.9819807624067809" />
-      <entry key="M30" value="0.9909494247471871" />
-      <entry key="H1" value="0.9954644266608361" />
-      <entry key="H2" value="0.997729636054195" />
-      <entry key="H4" value="0.9988641729755827" />
-      <entry key="D1" value="0.999810605843206" />
-      <entry key="W1" value="0.9999729414954976" />
+      <entry key="MS100" value="8.489330918528032E-283" />
+      <entry key="MS500" value="3.85278427410571E-57" />
+      <entry key="S2" value="7.87850242718283E-15" />
+      <entry key="S5" value="2.2833761959955256E-6" />
+      <entry key="S10" value="0.0015110844437345166" />
+      <entry key="S30" value="0.11478490294134443" />
+      <entry key="S60" value="0.3444264712645762" />
+      <entry key="M2" value="0.657398138468243" />
+      <entry key="M5" value="1.207981461927311" />
+      <entry key="M10" value="1.9935331072240812" />
+      <entry key="M15" value="2.826251560481982" />
+      <entry key="M30" value="5.850526087145727" />
+      <entry key="H1" value="12.324682802601915" />
+      <entry key="H2" value="20.479676482859244" />
+      <entry key="H4" value="27.26055479552116" />
+      <entry key="D1" value="35.118197118897776" />
+      <entry key="W1" value="36.72399475030735" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9141190722556359" />
-      <entry key="MS500" value="1.3981235413411421" />
-      <entry key="S2" value="1.7996428635520965" />
-      <entry key="S5" value="2.0025093590476195" />
-      <entry key="S10" value="2.6881285191844406" />
-      <entry key="S30" value="11.048051677116286" />
-      <entry key="S60" value="28.429459966323417" />
-      <entry key="M2" value="56.452323750390136" />
-      <entry key="M5" value="97.43450700547248" />
-      <entry key="M10" value="120.85435176972203" />
-      <entry key="M15" value="130.42846714723254" />
-      <entry key="M30" value="141.09265282978978" />
-      <entry key="H1" value="146.88046417186715" />
-      <entry key="H2" value="149.89737259461506" />
-      <entry key="H4" value="151.43779151915786" />
-      <entry key="D1" value="152.73810321510683" />
-      <entry key="W1" value="152.9625485314101" />
+      <entry key="MS100" value="0.6372803136596312" />
+      <entry key="MS500" value="0.9144513351863006" />
+      <entry key="S2" value="1.1596778612304997" />
+      <entry key="S5" value="1.797077919155947" />
+      <entry key="S10" value="2.5405817136908264" />
+      <entry key="S30" value="5.20850757901359" />
+      <entry key="S60" value="8.484807664215046" />
+      <entry key="M2" value="12.963443077237915" />
+      <entry key="M5" value="21.368084918523333" />
+      <entry key="M10" value="28.791759052060524" />
+      <entry key="M15" value="34.03596379073297" />
+      <entry key="M30" value="49.495177414938105" />
+      <entry key="H1" value="89.67968660469211" />
+      <entry key="H2" value="159.28758053525078" />
+      <entry key="H4" value="231.288244459492" />
+      <entry key="D1" value="328.65271676772363" />
+      <entry key="W1" value="350.23547015257145" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3MDui2sel33jTFPUoXnTty4JpEc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -111,25 +121,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PyCharmHome\Neon\views" />
       <recent name="D:\PyCharmHome\Neon" />
     </key>
   </component>
@@ -148,6 +159,12 @@
       <option name="presentableId" value="Default" />
       <updated>1794897583485</updated>
       <workItem from="1794897584715" duration="1498000" />
+      <workItem from="1794900056028" duration="4122000" />
+      <workItem from="1794919348896" duration="2971000" />
+      <workItem from="1794982147633" duration="604000" />
+      <workItem from="1794998504613" duration="3314000" />
+      <workItem from="1795006273886" duration="725000" />
+      <workItem from="1795070100126" duration="776000" />
     </task>
     <task id="LOCAL-00001" summary="Tạo dự án&#10;Create project">
       <option name="closed" value="true" />
@@ -173,15 +190,73 @@
       <option name="project" value="LOCAL" />
       <updated>1794899812853</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create ui, core, data, settings">
+      <option name="closed" value="true" />
+      <created>1794900155261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1794900155261</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tạo dự án&#10;Create project" />
     <MESSAGE value="Add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README.md" />
+    <MESSAGE value="Create ui, core, data, settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
