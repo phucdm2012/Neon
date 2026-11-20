@@ -4,11 +4,11 @@ from  components.sidebar import SideBar
 
 
 class MainWindow(Window):
-    sidebar = SideBar()
 
     def __init__(self):
         super().__init__()
         self.create_ui()
+        self.sidebar = SideBar()
 
     def create_ui(self):
         ...

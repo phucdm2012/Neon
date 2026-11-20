@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997f802f-f5a0-42d5-8338-1f54d46d24b9" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/views/home_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/settings_page.py" afterDir="false" />
+    <list default="true" id="997f802f-f5a0-42d5-8338-1f54d46d24b9" name="Changes" comment="add pages">
+      <change afterPath="$PROJECT_DIR$/views/dictionary_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/uicontent.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/uicontent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home_page.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/mainwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/mainwindow.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,61 +46,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000003248481519" />
-      <entry key="MS500" value="1.1265906853228647" />
-      <entry key="S2" value="1.9975617743114795" />
-      <entry key="S5" value="2.5135504091884213" />
-      <entry key="S10" value="2.7397248959085374" />
-      <entry key="S30" value="2.909147953680339" />
-      <entry key="S60" value="2.9548135872863828" />
-      <entry key="M2" value="3.0326169167806354" />
-      <entry key="M5" value="3.948172544575613" />
-      <entry key="M10" value="8.207018305289854" />
-      <entry key="M15" value="14.610491207356844" />
-      <entry key="M30" value="34.39780119865115" />
-      <entry key="H1" value="72.39063494411857" />
-      <entry key="H2" value="138.56783493869312" />
-      <entry key="H4" value="214.13916361844844" />
-      <entry key="D1" value="326.22773126940234" />
-      <entry key="W1" value="352.39175277764497" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000031461425651" />
+      <entry key="S2" value="1.0978425063973452" />
+      <entry key="S5" value="2.0302696020159483" />
+      <entry key="S10" value="3.5484232956009376" />
+      <entry key="S30" value="5.933238440501225" />
+      <entry key="S60" value="6.866462046436398" />
+      <entry key="M2" value="7.405478786947712" />
+      <entry key="M5" value="7.8619132032688555" />
+      <entry key="M10" value="10.659053041881856" />
+      <entry key="M15" value="16.600560051443004" />
+      <entry key="M30" value="39.067010920221094" />
+      <entry key="H1" value="82.48662054261357" />
+      <entry key="H2" value="157.71571006960588" />
+      <entry key="H4" value="255.22885597270383" />
+      <entry key="D1" value="424.68276049110216" />
+      <entry key="W1" value="468.1908825065414" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="5.082902888175597E-113" />
-      <entry key="S5" value="2.0922174027785673E-45" />
-      <entry key="S10" value="7.712264373168602E-23" />
-      <entry key="S30" value="8.794046664244876E-8" />
-      <entry key="S60" value="5.131755040836063E-4" />
-      <entry key="M2" value="0.03922793049089289" />
-      <entry key="M5" value="0.5308498062187433" />
-      <entry key="M10" value="1.3319110997059982" />
-      <entry key="M15" value="1.9908740931142814" />
-      <entry key="M30" value="4.179031192627486" />
-      <entry key="H1" value="9.679189326425753" />
-      <entry key="H2" value="18.316245981487178" />
-      <entry key="H4" value="26.628837028059014" />
-      <entry key="D1" value="37.29895613247786" />
-      <entry key="W1" value="39.60053274753267" />
+      <entry key="MS100" value="3.7713086649748276E-13" />
+      <entry key="MS500" value="0.0032756570046063777" />
+      <entry key="S2" value="0.2416520496027033" />
+      <entry key="S5" value="0.6541344774328098" />
+      <entry key="S10" value="1.05089725713211" />
+      <entry key="S30" value="1.578246784227023" />
+      <entry key="S60" value="1.7714855266816465" />
+      <entry key="M2" value="1.880902524848028" />
+      <entry key="M5" value="1.9652818928622275" />
+      <entry key="M10" value="2.388216632624439" />
+      <entry key="M15" value="3.42652342003166" />
+      <entry key="M30" value="8.052948620424948" />
+      <entry key="H1" value="17.130025540558577" />
+      <entry key="H2" value="30.437175175804196" />
+      <entry key="H4" value="44.588635088476124" />
+      <entry key="D1" value="65.29578912283836" />
+      <entry key="W1" value="70.14469993618138" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9526411341652958" />
-      <entry key="MS500" value="1.1159930571874932" />
-      <entry key="S2" value="1.9932496189867348" />
-      <entry key="S5" value="2.5114294718158514" />
-      <entry key="S10" value="2.7385774425541807" />
-      <entry key="S30" value="2.9087438108997885" />
-      <entry key="S60" value="2.9551025597949403" />
-      <entry key="M2" value="3.07101296305458" />
-      <entry key="M5" value="4.474903864384242" />
-      <entry key="M10" value="9.531951628743638" />
-      <entry key="M15" value="16.592108994715264" />
-      <entry key="M30" value="38.56444014091596" />
-      <entry key="H1" value="82.05715861208564" />
-      <entry key="H2" value="156.87390263205936" />
-      <entry key="H4" value="240.76127452915824" />
-      <entry key="D1" value="363.52523837104366" />
-      <entry key="W1" value="391.9920687078303" />
+      <entry key="MS100" value="1.0505967633080747E-11" />
+      <entry key="MS500" value="0.006470831654943596" />
+      <entry key="S2" value="0.46473082471162336" />
+      <entry key="S5" value="2.0244552313764324" />
+      <entry key="S10" value="4.121354626669343" />
+      <entry key="S30" value="7.285987499568573" />
+      <entry key="S60" value="8.512911764519982" />
+      <entry key="M2" value="9.220363130470307" />
+      <entry key="M5" value="9.799557738838901" />
+      <entry key="M10" value="13.029169200810435" />
+      <entry key="M15" value="20.008587158778255" />
+      <entry key="M30" value="47.098032034355036" />
+      <entry key="H1" value="99.5944804241753" />
+      <entry key="H2" value="188.1345793898645" />
+      <entry key="H4" value="299.80490438295" />
+      <entry key="D1" value="489.97568204329053" />
+      <entry key="W1" value="538.3351481148741" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -115,28 +115,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Python Console.executor": "Debug",
+    "Python.a.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PyCharmHome\Neon\views" />
       <recent name="D:\PyCharmHome\Neon" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python Console" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Neon" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="" />
+      <option name="SCRIPT_NAME" value="/Python Console.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Python Console" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -158,7 +192,11 @@
       <workItem from="1794982147633" duration="604000" />
       <workItem from="1794998504613" duration="3314000" />
       <workItem from="1795006273886" duration="725000" />
-      <workItem from="1795070100126" duration="3058000" />
+      <workItem from="1795070100126" duration="3280000" />
+      <workItem from="1795092011506" duration="111000" />
+      <workItem from="1795095346318" duration="1745000" />
+      <workItem from="1795135977993" duration="536000" />
+      <workItem from="1795141771038" duration="4175000" />
     </task>
     <task id="LOCAL-00001" summary="Tạo dự án&#10;Create project">
       <option name="closed" value="true" />
@@ -200,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795071151314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add pages">
+      <option name="closed" value="true" />
+      <created>1795073428859</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1795073428859</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +306,7 @@
     <MESSAGE value="Add README.md" />
     <MESSAGE value="Create ui, core, data, settings" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="add pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pages" />
   </component>
 </project>
