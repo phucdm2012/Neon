@@ -1,4 +1,11 @@
+from  pathlib import Path
+import ruamel.yaml
 
+CURRENT_DIR = Path(__file__).parent
+SETTINGS_DIR = CURRENT_DIR / 'settings'
+SETTINGS_DIR.touch(exist_ok=True)
+
+LANGUAGES = open(str(CURRENT_DIR / ''))
 
 UI_CONTENT = {
     'vi': {

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997f802f-f5a0-42d5-8338-1f54d46d24b9" name="Changes" comment="add pages">
-      <change afterPath="$PROJECT_DIR$/views/dictionary_page.py" afterDir="false" />
+    <list default="true" id="997f802f-f5a0-42d5-8338-1f54d46d24b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/mainwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/mainwindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/uicontent.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dictionary_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/dictionary_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,60 +45,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000031461425651" />
-      <entry key="S2" value="1.0978425063973452" />
-      <entry key="S5" value="2.0302696020159483" />
-      <entry key="S10" value="3.5484232956009376" />
-      <entry key="S30" value="5.933238440501225" />
-      <entry key="S60" value="6.866462046436398" />
-      <entry key="M2" value="7.405478786947712" />
-      <entry key="M5" value="7.8619132032688555" />
-      <entry key="M10" value="10.659053041881856" />
-      <entry key="M15" value="16.600560051443004" />
-      <entry key="M30" value="39.067010920221094" />
-      <entry key="H1" value="82.48662054261357" />
-      <entry key="H2" value="157.71571006960588" />
-      <entry key="H4" value="255.22885597270383" />
-      <entry key="D1" value="424.68276049110216" />
-      <entry key="W1" value="468.1908825065414" />
+      <entry key="MS500" value="1.0000822012858515" />
+      <entry key="S2" value="1.1314372017673084" />
+      <entry key="S5" value="1.8987396338180345" />
+      <entry key="S10" value="2.9009171776608857" />
+      <entry key="S30" value="5.6654203580910885" />
+      <entry key="S60" value="8.86172707986578" />
+      <entry key="M2" value="14.007655307224374" />
+      <entry key="M5" value="26.10918859805182" />
+      <entry key="M10" value="41.581846438963225" />
+      <entry key="M15" value="54.30937568563514" />
+      <entry key="M30" value="85.82619813899957" />
+      <entry key="H1" value="137.11054575354916" />
+      <entry key="H2" value="220.19573735877572" />
+      <entry key="H4" value="328.8627006030438" />
+      <entry key="D1" value="526.2514355733101" />
+      <entry key="W1" value="578.5501295982586" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.7713086649748276E-13" />
-      <entry key="MS500" value="0.0032756570046063777" />
-      <entry key="S2" value="0.2416520496027033" />
-      <entry key="S5" value="0.6541344774328098" />
-      <entry key="S10" value="1.05089725713211" />
-      <entry key="S30" value="1.578246784227023" />
-      <entry key="S60" value="1.7714855266816465" />
-      <entry key="M2" value="1.880902524848028" />
-      <entry key="M5" value="1.9652818928622275" />
-      <entry key="M10" value="2.388216632624439" />
-      <entry key="M15" value="3.42652342003166" />
-      <entry key="M30" value="8.052948620424948" />
-      <entry key="H1" value="17.130025540558577" />
-      <entry key="H2" value="30.437175175804196" />
-      <entry key="H4" value="44.588635088476124" />
-      <entry key="D1" value="65.29578912283836" />
-      <entry key="W1" value="70.14469993618138" />
+      <entry key="MS100" value="5.493449632269575E-4" />
+      <entry key="MS500" value="0.22282762397424277" />
+      <entry key="S2" value="0.6870561909881352" />
+      <entry key="S5" value="0.8605912040834965" />
+      <entry key="S10" value="0.9276809988432015" />
+      <entry key="S30" value="0.9835734410512461" />
+      <entry key="S60" value="1.1292135084719506" />
+      <entry key="M2" value="1.8429255945960539" />
+      <entry key="M5" value="4.146226032458718" />
+      <entry key="M10" value="6.9871063842910335" />
+      <entry key="M15" value="9.180536242694355" />
+      <entry key="M30" value="14.595927509780498" />
+      <entry key="H1" value="24.12596682421923" />
+      <entry key="H2" value="38.77078952034649" />
+      <entry key="H4" value="55.23862839077513" />
+      <entry key="D1" value="80.73001167689908" />
+      <entry key="W1" value="86.90372961693878" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0505967633080747E-11" />
-      <entry key="MS500" value="0.006470831654943596" />
-      <entry key="S2" value="0.46473082471162336" />
-      <entry key="S5" value="2.0244552313764324" />
-      <entry key="S10" value="4.121354626669343" />
-      <entry key="S30" value="7.285987499568573" />
-      <entry key="S60" value="8.512911764519982" />
-      <entry key="M2" value="9.220363130470307" />
-      <entry key="M5" value="9.799557738838901" />
-      <entry key="M10" value="13.029169200810435" />
-      <entry key="M15" value="20.008587158778255" />
-      <entry key="M30" value="47.098032034355036" />
-      <entry key="H1" value="99.5944804241753" />
-      <entry key="H2" value="188.1345793898645" />
-      <entry key="H4" value="299.80490438295" />
-      <entry key="D1" value="489.97568204329053" />
-      <entry key="W1" value="538.3351481148741" />
+      <entry key="MS100" value="0.00754707087784862" />
+      <entry key="MS500" value="0.43496008793716284" />
+      <entry key="S2" value="1.3650247765918575" />
+      <entry key="S5" value="2.468161712894342" />
+      <entry key="S10" value="3.637606869885411" />
+      <entry key="S30" value="6.566185287267465" />
+      <entry key="S60" value="9.92520136754225" />
+      <entry key="M2" value="15.766662493947587" />
+      <entry key="M5" value="30.169832257873857" />
+      <entry key="M10" value="48.50008811291135" />
+      <entry key="M15" value="63.43157321607529" />
+      <entry key="M30" value="100.37806107757868" />
+      <entry key="H1" value="161.2021647668082" />
+      <entry key="H2" value="258.94088988970105" />
+      <entry key="H4" value="384.0842461992351" />
+      <entry key="D1" value="606.9775938887442" />
+      <entry key="W1" value="665.4532755007854" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -120,6 +118,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Python Console.executor": "Debug",
     "Python.a.executor": "Debug",
+    "Python.uicontent.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -140,7 +139,7 @@
       <recent name="D:\PyCharmHome\Neon" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.settings">
     <configuration name="Python Console" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Neon" />
       <option name="ENV_FILES" value="" />
@@ -166,8 +165,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Neon" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resources" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="" />
+      <option name="SCRIPT_NAME" value="D:\PyCharmHome\Neon\services\settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.settings" />
         <item itemvalue="Python.Python Console" />
       </list>
     </recent_temporary>
@@ -196,7 +221,9 @@
       <workItem from="1795092011506" duration="111000" />
       <workItem from="1795095346318" duration="1745000" />
       <workItem from="1795135977993" duration="536000" />
-      <workItem from="1795141771038" duration="4175000" />
+      <workItem from="1795141771038" duration="4473000" />
+      <workItem from="1795149716583" duration="933000" />
+      <workItem from="1795154255895" duration="5037000" />
     </task>
     <task id="LOCAL-00001" summary="Tạo dự án&#10;Create project">
       <option name="closed" value="true" />
@@ -246,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795073428859</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Viết tiếp trang từ điêển">
+      <option name="closed" value="true" />
+      <created>1795148000059</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1795148000059</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +342,7 @@
     <MESSAGE value="Create ui, core, data, settings" />
     <MESSAGE value="." />
     <MESSAGE value="add pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pages" />
+    <MESSAGE value="Viết tiếp trang từ điêển" />
+    <option name="LAST_COMMIT_MESSAGE" value="Viết tiếp trang từ điêển" />
   </component>
 </project>
